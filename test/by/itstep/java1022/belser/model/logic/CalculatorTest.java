@@ -50,4 +50,18 @@ public class CalculatorTest {
         //Assert
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void testDivPositive() {
+        // Arrange
+        int a = 20;
+        int b = 10;
+        int expected = 2;
+
+        //Act
+        int actual = Calculator.div(a, b);
+
+        //Assert
+        assertEquals(expected, actual);
+    }
 }
